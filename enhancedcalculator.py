@@ -35,10 +35,7 @@ while True:
 
     if choice in ('1', '2', '3', '4', '5', '6'):
         num1 = float(input("Enter first number: "))
-        num2 = float(input("Enter second number: "))
-   
-    if choice in ('7'):
-        num1 = float(input("Enter your number: "))
+        num2 = float(input("Enter second number, not necessary if it is a square root: "))
 
         if choice == '1':
             print(num1, "+", num2, "=", add(num1, num2))
